@@ -1,0 +1,97 @@
+1 make sure the filename and the class name are the same
+2.to make comments 
+	- single line //
+	- multi line /**/
+	- document /** */
+3.valid identification
+	-a-z 
+	-A-Z
+	-0-9
+	-_
+	-$
+	-do not start with a digit
+	-Capitalize the first letter for each world in the class name
+	-first letter of first word in function should be lower cased
+
+4.data types in java
+	-int in decimal binary (0b1001, 0B1011 ..)
+	-boolean
+	-char quote in  ''
+	-string quote in  ""
+
+5.variables in java
+	-variables are saved in memory
+	-1 byte has 8 bits
+	-int
+		-byte -128-127
+		-short 
+		-int 1e10
+		-long 2e63
+	-float
+		-float 3e38
+		-double 3e308
+	-char
+	-boolean
+
+6. default types
+	-12312313213131L add L in the end
+	-100L to indicate it as a long type
+	-D for double (Default)
+	-F for float
+
+7.declare variables
+	-type
+	-name
+	-data
+
+8.strings
+	-string is not a  basic type in java
+
+9.scope of variables
+	-inside {}
+	-do not define a variable twice
+10.type conversion
+	-byte 
+	-short
+	-int
+	-long
+	-float
+	-double
+	upper ones can be converted into lower ones
+	boolean does not convert
+11. forced conversion
+	(type) var/const
+12.operators
+	+: when + meets string it concats two sides into a new string, forced to stringtype 
+	- 
+	*
+	/: int/int will round down
+	%: get the remanent
+	++
+	--
+13.assignment
+	+=
+	-=
+	*=
+	/=
+	%=
+	do not separate them with spaces
+14.comparison
+	==
+	!=
+	>=
+	<=
+	<
+	>
+15.logical
+	&: when it meets false then return false
+	|: one true then it returns true
+	^: true and false then it returns true
+	!
+	&&: shortcut and it can speed up however will not evaluate the remain parts
+	||: shortcut or
+	operate between two booleans
+16.tri-operator
+	boolean?stmt1:stmt2
+	3>2?99:88
+
