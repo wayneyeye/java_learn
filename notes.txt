@@ -94,4 +94,12 @@
 16.tri-operator
 	boolean?stmt1:stmt2
 	3>2?99:88
+17,switch 
+	statement only byte short int char enum string as input type
+	when multiple case statement will result into same outcome, use case penetration
 
+18.JVM
+	- stack for methods
+	- shared space
+	- heap
+	
