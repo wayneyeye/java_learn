@@ -70,3 +70,11 @@ for {init_statement;test_expression;iteration_statement}
 		- static
 		- dynamic
 
+- variable number of args 
+```java
+methodName(type... argName){
+	for (a:argName){
+		statement ...
+	}
+}
+```
