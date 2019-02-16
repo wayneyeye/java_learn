@@ -41,3 +41,32 @@ else
 }
 ```
 
+- for loop
+```java
+for {init_statement;test_expression;iteration_statement}
+{
+	statement....
+}
+```
+
+- use break/continue to break/continue nested loops
+```java
+outer:
+for {init_statement;test_expression;iteration_statement}
+{
+	for {init_statement;test_expression;iteration_statement}
+	{
+		statement....
+		if (logic expression)
+		{
+			break/continue outer;
+		}
+	}
+}
+```
+
+- arrays in java
+	- initialization
+		- static
+		- dynamic
+
