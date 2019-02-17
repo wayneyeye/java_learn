@@ -78,3 +78,13 @@ methodName(type... argName){
 	}
 }
 ```
+
+- method overload
+	- different parameters
+	- cannot use the return type to implement the overload
+
+- access control for the member variables
+	- private <-- accessed by itself only
+	- default <-- accessed by the same package
+	- protected <-- accessed by child classes/instances
+	- public <-- open access
