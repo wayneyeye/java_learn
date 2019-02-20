@@ -110,3 +110,25 @@ before cast type , run instanceof to improve robustness
 
 	- toStirng() method
 		- if no such method print returns classname@hashCode
+
+	- final
+		- final prohibits the inherit and re-assigining of values to an instance
+		- immutables =  final + private
+
+	- abstract classes
+
+	- interface 
+	its a convention to use adj. to name interface
+```java
+		... interface I1 extends SI1,SI2, ...
+		{
+			definitions
+		}
+```
+		- use interface
+```java
+		... class C1 implements SI1,SI2, ...
+		{
+			definitions
+		}
+```
