@@ -89,3 +89,24 @@ methodName(type... argName){
 	- protected <-- accessed by child classes/instances
 	- public <-- open access
 
+- Inheritate
+```java
+xxx class SubClass extends SuperClass{
+	definitions...
+}
+```
+
+- Polymorphism
+before cast type , run instanceof to improve robustness
+
+- other OO concepts
+	- Wrapper class for 8 primitive types
+		- char --> Character
+		- int --> Integer
+		- Autoboxing : no need to do type cast when convert between primitive type and wrapper class
+		- parseXxx(String s) and valueOf(String s) Static methods to convert String to primitive types
+		- use String.valueOf(primitive) to convert primitives back to String / or use the short cut primitive type + ""
+		- use the .compare(xxx val1, xxx val2) to compare
+
+	- toStirng() method
+		- if no such method print returns classname@hashCode
